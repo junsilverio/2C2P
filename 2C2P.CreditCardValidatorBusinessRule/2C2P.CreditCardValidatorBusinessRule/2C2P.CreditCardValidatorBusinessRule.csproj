@@ -40,16 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\CreditCard.cs" />
     <Compile Include="Interfaces\ICreditCard.cs" />
     <Compile Include="Models\CreditCardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RulesProcessors\JCB\CreditCardJCB.cs" />
+    <Compile Include="RulesProcessors\MasterCard\CreditCardMasterCard.cs" />
+    <Compile Include="RulesProcessors\Visa\CreditCardVisa.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Base\" />
-    <Folder Include="RulesProcessors\JCB\" />
-    <Folder Include="RulesProcessors\MasterCard\" />
-    <Folder Include="RulesProcessors\Visa\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\2C2P.Helpers\Helpers\Helpers.csproj">
       <Project>{bc719eb8-66fd-4075-83af-92697aa3814d}</Project>
