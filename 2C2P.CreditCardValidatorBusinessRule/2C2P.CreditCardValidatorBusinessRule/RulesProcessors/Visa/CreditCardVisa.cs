@@ -16,7 +16,7 @@ namespace CreditCardValidatorBusinessRule.RulesProcessors.Visa
 
         private int GetYear(string expiryDate)
         {
-            return int.Parse(expiryDate.Substring(3, 4));
+            return int.Parse(expiryDate.Substring(2, 4));
         }
         private bool IsLeapYear(string expiryYear)
         {

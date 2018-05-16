@@ -9,7 +9,7 @@ namespace CreditCardValidatorBusinessRule.RulesProcessors.JCB
         private bool _result;
         public CreditCardConstants.CardType GetCardType()
         {
-            return _result ? CreditCardConstants.CardType.JCB : CreditCardConstants.CardType.UnKnown;
+            return CreditCardConstants.CardType.JCB; 
         }
 
         public bool Validate(CreditCardModel creditCardInfo)

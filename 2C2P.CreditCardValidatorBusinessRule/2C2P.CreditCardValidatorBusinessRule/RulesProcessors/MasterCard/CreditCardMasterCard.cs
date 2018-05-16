@@ -21,7 +21,7 @@ namespace CreditCardValidatorBusinessRule.RulesProcessors.MasterCard
 
         private int GetYear(string expiryDate)
         {
-            return int.Parse(expiryDate.Substring(3, 4));
+            return int.Parse(expiryDate.Substring(2, 4));
         }
         private bool IsPrimeNumber(int expiryYear)
         {
@@ -36,7 +36,6 @@ namespace CreditCardValidatorBusinessRule.RulesProcessors.MasterCard
                         break;
                     }
                 }
-                isPrimeNumber = true;
             }
             return isPrimeNumber;
         }

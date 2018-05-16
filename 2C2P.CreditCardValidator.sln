@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessRule", "BusinessRul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CreditCardValidatorBusinessRule", "2C2P.CreditCardValidatorBusinessRule\2C2P.CreditCardValidatorBusinessRule\2C2P.CreditCardValidatorBusinessRule.csproj", "{916E93ED-C328-4355-A060-3697C39CADB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2C2P.CreditCardValidatorServiceAPI", "2C2P.CreditCardValidatorServiceApi\2C2P.CreditCardValidatorServiceAPI\2C2P.CreditCardValidatorServiceAPI.csproj", "{4F50563A-1079-4643-AFEC-56351AD369FA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "2C2P.Helpers\Helpers\Helpers.csproj", "{BC719EB8-66FD-4075-83AF-92697AA3814D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{C93CE83F-D650-4AB2-B190-C5DEC53CDD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardServiceApi", "2C2P.CreditCardValidatorServiceApi\CreditCardServiceApi\CreditCardServiceApi.csproj", "{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,21 +25,21 @@ Global
 		{916E93ED-C328-4355-A060-3697C39CADB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{916E93ED-C328-4355-A060-3697C39CADB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{916E93ED-C328-4355-A060-3697C39CADB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F50563A-1079-4643-AFEC-56351AD369FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F50563A-1079-4643-AFEC-56351AD369FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F50563A-1079-4643-AFEC-56351AD369FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F50563A-1079-4643-AFEC-56351AD369FA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC719EB8-66FD-4075-83AF-92697AA3814D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC719EB8-66FD-4075-83AF-92697AA3814D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC719EB8-66FD-4075-83AF-92697AA3814D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC719EB8-66FD-4075-83AF-92697AA3814D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{916E93ED-C328-4355-A060-3697C39CADB4} = {01DA8CEE-EE0F-4AB0-BF01-5C5217CCA2E6}
-		{4F50563A-1079-4643-AFEC-56351AD369FA} = {118C8E2B-4950-4902-AB06-73EB4C8EF286}
 		{BC719EB8-66FD-4075-83AF-92697AA3814D} = {C93CE83F-D650-4AB2-B190-C5DEC53CDD92}
+		{6E00F5BD-6ACC-4A28-85D4-2C6B86AAF1D0} = {118C8E2B-4950-4902-AB06-73EB4C8EF286}
 	EndGlobalSection
 EndGlobal

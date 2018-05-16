@@ -3,7 +3,7 @@ using Helpers;
 
 namespace CreditCardValidatorBusinessRule.Interfaces
 {
-    interface ICreditCard
+    public interface ICreditCard
     {
         bool Validate(CreditCardModel creditCardInfo);
         CreditCardConstants.CardType GetCardType();
